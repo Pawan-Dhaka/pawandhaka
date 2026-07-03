@@ -57,13 +57,13 @@ const Navbar = () => {
                 <div className=" flex flex-col w-screen  h-[150vh]  bg-amber-50 pt-40">
                     <ul className='flex flex-col gap-8 text-md items-center mx-20'>
                         {/* <li className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link onClick={closeMenu} href={"/"} >Home</Link></li> */}
-                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-slate-950 ' onClick={closeMenu} href={"/"} >Home</Link></li>
-                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-slate-950 ' onClick={closeMenu} href={"/About"} >About</Link></li>
-                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-slate-950 ' onClick={closeMenu} href={"/Projects"} >Projects</Link></li>
-                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-slate-950 ' onClick={closeMenu} href={"/Skills"} >Skills</Link></li>
+                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-blue-500  ' onClick={closeMenu} href={"/"} >Home</Link></li>
+                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-blue-500  ' onClick={closeMenu} href={"/About"} >About</Link></li>
+                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-blue-500  ' onClick={closeMenu} href={"/Projects"} >Projects</Link></li>
+                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-blue-500  ' onClick={closeMenu} href={"/Skills"} >Skills</Link></li>
                         {/* <li> <Link className='hover:text-slate-950 ' href={"/help"} >Experence</Link></li> */}
-                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-slate-950 ' onClick={closeMenu} href={"/Hobbies"} >Hobbies</Link></li>
-                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-slate-950 ' onClick={closeMenu} href={"/Connect"} >Connect</Link></li>
+                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-blue-500 ' onClick={closeMenu} href={"/Hobbies"} >Hobbies</Link></li>
+                        <li  className='bg-slate-950 w-full text-center p-3 rounded-4xl text-white font-bold text-2xl '> <Link className='hover:text-blue-500  ' onClick={closeMenu} href={"/Connect"} >Connect</Link></li>
                     </ul>
                 </div>
             </div>}
