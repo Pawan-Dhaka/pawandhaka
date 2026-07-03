@@ -15,8 +15,35 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Pawan Dhaka - Software Engg.",
-  description: "This is Portfolio website of Pawan Dhaka, Software Engineer",
+  description: "Portfolio of Pawan Dhaka, Full Stack Developer specializing in Next.js, React, Node.js, Express.js, and MongoDB.",
+  keywords: [
+    "Pawan Dhaka",
+    "pawandhaka",
+    "pawandhaka.com",
+    "pawandhaka.in",
+    "pawandhaka website",
+    "pawandhaka portfolio",
+    "Pawan dhaka",
+    "Pawan Kumar",
+    "Full Stack Developer",
+    "Next.js Developer",
+    "React Developer",
+    "Node.js Developer",
+    "Express.js",
+    "MongoDB",
+    "JavaScript Developer",
+    "Portfolio",
+    "Web Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "MERN Stack Developer"
+
+  ],
+
+  authors: [{ name: "Pawan Dhaka" }],
 };
+
+
 
 export default function RootLayout({ children }) {
   return (

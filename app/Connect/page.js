@@ -66,14 +66,15 @@ export default function Connect() {
                                 Interested in my experience, skills, and projects? You can view or download my resume below.
                             </p>
 
-                            <a
-                                href="/resume.pdf"
+                            
+                            <Link
+                                href="https://drive.google.com/file/d/1MYKKqy6WQV3vbKACAGaAaKYq1iTCgVZv/view?usp=drivesdk"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition"
                             >
                                 View Resume
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="w-full max-w-2xl mx-auto  shadow-lg rounded-2xl p-8 border text-center">
@@ -255,3 +256,9 @@ theme="dark"
         </>
     );
 }
+
+
+
+
+
+// mongodb+srv://gameplaywithpawan_db_user:PawanDhaka1213@cluster0.wpzsfif.mongodb.net/?appName=Cluster0

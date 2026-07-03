@@ -5,7 +5,7 @@ const page = () => {
         <>
         
             <section className='mt-30  flex flex-col gap-10 px-5 '>
-                <div className="about border sm:border-0 p-1.5 rounded-2xl ">
+                <div className="about border md:border-0 p-1.5 rounded-2xl ">
                     <div className="detaiils grid sm:grid-cols-3 gap-2">
                         <div className=" flex flex-col gap-5 text-center  sm:items-end xl:-mr-[3vw] ">
                             <h1 className='text-2xl font-extrabold mt-3  bg-gray-800 text-white rounded-xl px-4 p-2'>About me</h1>
@@ -21,7 +21,7 @@ const page = () => {
                     </div>
                 </div>
                  <h1 className='text-2xl font-extrabold mt-3  bg-sky-700 text-white rounded-full w-full mx-auto  p-2 text-center'>Education</h1>
-                <div className="about border sm:border-0 p-1.5 rounded-2xl ">
+                <div className="about border md:border-0 p-1.5 rounded-2xl ">
                     <div className="detaiils grid sm:grid-cols-3 gap-2">
                         <div className=""></div>
                         <div className="img  mx-auto  ">
@@ -37,7 +37,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className="about border sm:border-0 p-1.5 rounded-2xl ">
+                <div className="about border md:border-0 p-1.5 rounded-2xl ">
                     <div className="detaiils grid sm:grid-cols-3 gap-2">
                         <div className=" flex flex-col gap-5 text-center  sm:items-end xl:-mr-[5vw] ">
                             <h1 className='text-2xl font-extrabold mt-3  bg-gray-800 text-white rounded-xl px-4 p-2'>JEE</h1>
@@ -51,7 +51,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <div className="about border sm:border-0 p-1.5 rounded-2xl ">
+                <div className="about border md:border-0 p-1.5 rounded-2xl ">
                     <div className="detaiils grid sm:grid-cols-3 gap-2">
                         <div className=""></div>
                          <div className="img  mx-auto  ">
