@@ -68,7 +68,7 @@ export default function Connect() {
 
                             
                             <Link
-                                href="https://drive.google.com/file/d/1MYKKqy6WQV3vbKACAGaAaKYq1iTCgVZv/view?usp=drivesdk"
+                                href="https://drive.google.com/file/d/1ZlxLSbvGO3O4qJIMF0GdD0OZCdUrMbsB/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition"
