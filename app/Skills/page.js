@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Image from "next/image";
 
 const skills = [
   {
@@ -69,7 +70,7 @@ const page = () => {
                     <h2 className='font-bold text-3xl '>My Skills Overview</h2>
                     <p className='text-xl font-[500]'>I am a <span className='text-sky-900 font-semibold'>Full Stack Developer</span> with a strong foundation in modern web technologies and problem-solving. I specialize in building responsive, scalable, and high-performance web applications using <span className='text-sky-900 font-semibold'>Next.js, React, Node.js, Express.js, and MongoDB</span>. Alongside full-stack development, I have a solid understanding of C, C++, Java, Data Structures & Algorithms, and regularly practice problem-solving on LeetCode. I am passionate about writing clean, maintainable code and continuously learning new technologies to build efficient and impactful software solutions.</p>
                 </div>
-                <img className='lg:w-[20%] rounded-xl' src="/pawan.jpeg" alt="" />
+                <Image className='lg:w-[20%] rounded-xl' src="/pawan.webp" alt="" width={1462} height={1462} />
             </div>
             <h1 className='text-2xl font-extrabold mt-8  bg-sky-200 text-black rounded-full w-[84vw] mx-auto px-4 p-2 text-center border-1'>The Skills</h1>
             <div className="mt-8 grid md:grid-cols-2 xl:grid-cols-3 w-[85vw] m-auto gap-3 mb-6">
@@ -78,7 +79,7 @@ const page = () => {
                     return  <div key={index} className="card bg-sky-900 border border-white/10 rounded-2xl p-6">
                     <div className="flex items-center gap-4 border-b border-white/10 pb-4">
                         <div className=" rounded-xl  flex items-center justify-center">
-                            <img className="h-11" src={item.pic} alt="Programming Languages" />
+                            <Image className="h-11" src={item.pic} alt="Programming Languages" width={44} height={44} />
                         </div>
                         <div>
                             <h2 className="text-2xl font-bold text-white">

@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Link from 'next/link'
+import Image from "next/image";
 
 
 const obj = [
@@ -90,8 +91,8 @@ const page = () => {
                         <h2 className='flex justify-center sm:justify-end items-center bg-green-600 sm:bg-transparent rounded-2xl ' > <span className={`${obj[index].status=="Deployed"?'sm:bg-green-600 text-white':'sm:bg-yellow-500 text-black'} p-1 px-2.5 rounded-4xl font-semibold `}>{obj[index].status}</span></h2>
                         <p><span className='font-semibold'>Tech:</span> {obj[index].Tech}</p>
                         <p className='flex  items-center sm:justify-end'><span className='font-semibold'>Database:</span> {obj[index].database}</p>
-                        <Link href={obj[index].live=="NA"?obj[index].gitgub:obj[index].live} className=' text-white flex bg-blue-800 sm:bg-transparent rounded-2xl justify-center sm:justify-start    '><span className='sm:bg-blue-800 p-1 px-4 rounded-4xl flex items-center '>Live Demo <img className='h-8 invert pt-1' src="/right-up.png" alt="" /></span></Link>
-                        <Link href={obj[index].gitgub} className=' text-white flex sm:justify-end justify-center bg-blue-800 sm:bg-transparent rounded-2xl '><span className='bg-blue-800 p-1 px-4 rounded-4xl flex items-center '>Github repo<img className='h-8 invert pt-1' src="/right-up.png" alt="" /></span></Link>
+                        <Link href={obj[index].live=="NA"?obj[index].gitgub:obj[index].live} className=' text-white flex bg-blue-800 sm:bg-transparent rounded-2xl justify-center sm:justify-start    '><span className='sm:bg-blue-800 p-1 px-4 rounded-4xl flex items-center '>Live Demo <Image className='h-8 invert pt-1' src="/right-up.png" alt="" width={32} height={32} /></span></Link>
+                        <Link href={obj[index].gitgub} className=' text-white flex sm:justify-end justify-center bg-blue-800 sm:bg-transparent rounded-2xl '><span className='bg-blue-800 p-1 px-4 rounded-4xl flex items-center '>Github repo<Image className='h-8 invert pt-1' src="/right-up.png" alt="" width={32} height={32} /></span></Link>
                     </div>
                 })}
 

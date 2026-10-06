@@ -3,6 +3,7 @@ export const dynamic = "force-dynamic";
 import Link from "next/link"
 import clientPromise from "@/lib/mongodb"
 import { notFound } from "next/navigation"
+import Image from "next/image";
 
 const page = async () => {
 
@@ -21,7 +22,7 @@ const page = async () => {
                     return  <div key={index} className="card flex  flex-col bg-slate-700  rounded-2xl px-5 py-3 gap-3">
                     <div className="flex justify-between bg-gray-50 p-2 -mx-2 rounded-2xl text-xl">
                         <div className=" flex items-center">
-                            <img className='h-6' src="/profile.png" alt="" />
+                            <Image className='h-6' src="/profile.png" alt="" width={24} height={24} />
                             <h2>{item.name}</h2>
                         </div>
                         <p>{item.rating}</p>

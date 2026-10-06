@@ -28,3 +28,33 @@ body {
 }
 
 
+.word-slider {
+  display: inline-block;
+  position: relative;
+  min-width: 100%;
+  height: 1.2em;
+  overflow: hidden;
+}
+
+.word-slider span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  animation: wordChange 16s infinite;
+  animation-delay: calc(var(--i) * 2s);
+}
+
+@keyframes wordChange {
+  0%,
+  10% {
+    opacity: 1;
+  }
+
+  12.5%,
+  100% {
+    opacity: 0;
+  }
+}
+
+

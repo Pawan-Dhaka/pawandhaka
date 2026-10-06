@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 const page = () => {
     return (
@@ -16,8 +17,7 @@ const page = () => {
                             <p className='text-xl font-bold  bg-gray-200 text-black rounded-xl px-4 p-2'>RTU Kota</p>
                         </div>
                         <div className="img  mx-auto  ">
-                            <img className='h-[390px] rounded-xl border-1 object-cover ' src="/pawan.jpeg" alt="" />
-                        </div>
+                            <Image className='h-[390px] rounded-xl border-1 object-cover ' src="/pawan.webp" alt="" width={1462} height={1462} />                        </div>
                     </div>
                 </div>
                  <h1 className='text-2xl font-extrabold mt-3  bg-sky-700 text-white rounded-full w-full mx-auto  p-2 text-center'>Education</h1>
@@ -25,8 +25,7 @@ const page = () => {
                     <div className="detaiils grid sm:grid-cols-3 gap-2">
                         <div className=""></div>
                         <div className="img  mx-auto  ">
-                            <img className='h-[330px] rounded-xl border-2 object-cover' src="/btech.webp" alt="" />
-                        </div>
+                            <Image className='h-[330px] rounded-xl border-2 object-cover' src="/btech.webp" alt="" width={1024} height={768} />                        </div>
                         <div className=" order-first sm:order-last flex flex-col gap-5  text-center sm:items-start xl:-ml-[5vw] ">
                             <h1 className='text-2xl font-extrabold mt-3  bg-gray-800 text-white rounded-xl px-4 p-2'>B.Tech</h1>
                             <p className='text-xl font-bold  bg-gray-200 text-black rounded-xl px-4 p-2'>2024-2028</p>
@@ -47,16 +46,14 @@ const page = () => {
                             <p className='text-xl font-bold  bg-gray-200 text-black rounded-xl px-4 p-2'>Result:<span className='text-2xl text-green-900'>94.5%ile</span></p>
                         </div>
                         <div className="img  mx-auto  ">
-                            <img className='h-[330px] border-2 rounded-xl object-cover' src="/jee.jpg" alt="" />
-                        </div>
+                           <Image className='h-[330px] rounded-xl border-2 object-cover' src="/jee.webp" alt="" width={3072} height={3072} />                        </div>
                     </div>
                 </div>
                 <div className="about border md:border-0 p-1.5 rounded-2xl ">
                     <div className="detaiils grid sm:grid-cols-3 gap-2">
                         <div className=""></div>
                          <div className="img  mx-auto  ">
-                           <img className='h-[330px] border-2 rounded-xl object-cover' src="/12th.png" alt="" />
-                        </div>
+                            <Image className='h-[330px] rounded-xl border-2 object-cover' src="/12th.webp" alt="" width={900} height={900} />                        </div>
                         <div className=" order-first sm:order-last flex flex-col gap-5 text-center  sm:items-start xl:-ml-[5vw] ">
                             <h1 className='text-2xl font-extrabold mt-3  bg-gray-800 text-white rounded-xl px-4 p-2'>Class XII</h1>
                             <p className='text-xl font-bold  bg-gray-200 text-black rounded-xl px-4 p-2'>2022-2023</p>
@@ -77,8 +74,7 @@ const page = () => {
                             <p className='text-xl font-bold  bg-gray-200 text-black rounded-xl px-4 p-2'>Result:<span className='text-2xl text-green-900'>95%</span></p>
                         </div>
                         <div className="img  mx-auto  ">
-                            <img className='h-[330px] border-2 rounded-xl object-cover' src="/10th.png" alt="" />
-                        </div>
+                            <Image className='h-[330px] rounded-xl border-2 object-cover' src="/10th.webp" alt="" width={1676} height={1708} />                       </div>
                     </div>
                 </div>
 

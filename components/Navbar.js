@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from "next/image";
 
 const Navbar = () => {
     const [showNav, setShowNav] = useState(true);
@@ -44,8 +45,8 @@ const Navbar = () => {
                         </div>
                         <div className="right flex gap-1 min-[700px]:gap-5">
 
-                            <div className="hideded hamburger xl:hidden  mr-3 min-[700px]:mr-10 flex items-center  ">
-                                <img className='w-7 ' src={showHam ? "/more.png" : "/close.png"} alt="" onClick={() => { setshowHam(!showHam) }} />
+                            <div className="hideded hamburger xl:hidden  mr-3 min-[700px]:mr-10 flex items-center    ">
+                                <Image width={28} height={28} className="w-7 h-7" src={showHam ? "/more.png" : "/close.png"} alt="" onClick={() => { setshowHam(!showHam) }} />
                             </div>
                         </div>
                     </div>
