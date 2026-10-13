@@ -1,7 +1,9 @@
+"use client"
 import Link from "next/link";
 import Image from "next/image";
 
-const words = [
+
+const word = [
   "Software Engineer",
   "Full-Stack Developer",
   "Frontend Developer",
@@ -27,7 +29,7 @@ export default function Home() {
 
             <h1 className="text-[#000000] text-3xl font-semibold text-center">
               <span className="word-slider">
-                {words.map((word, i) => (
+                {word.map((word, i) => (
                   <span key={word} style={{ "--i": i }}>
                     {word}.
                   </span>
@@ -54,6 +56,7 @@ export default function Home() {
                   alt=""
                   width={24}
                   height={24}
+                  
                 />
               </Link>
             </div>
@@ -63,9 +66,10 @@ export default function Home() {
             <Image
               className="w-full h-full object-cover border-b-4 border-b-black"
               src="/pic.webp"
-              alt=""
+              alt="Pawan Dhaka : Image"
               width={2564}
               height={2568}
+              loading="eager"
             />
           </div>
         </div>

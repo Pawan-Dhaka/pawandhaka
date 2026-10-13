@@ -6,7 +6,7 @@ const skills = [
   {
     pic:"/png1.png",
     name: "Programming Languages",
-    langs: ["C", "C++", "Java", "JavaScript"],
+    langs: ["C++", "Typescript", "Java", "JavaScript" , "C"],
   },
   {
     pic:"/png2.png",
@@ -37,7 +37,8 @@ const skills = [
     langs: [
       "MongoDB",
       "Mongoose",
-      "MySQL",
+      "PostgreSQL",
+      "MySQL"
     ],
   },
   {
@@ -45,8 +46,10 @@ const skills = [
     name: "Computer Science Fundamentals",
     langs: [
       "DSA(C++)",
-      "LeetCode",
-      "Problem Solving",
+      "OOP",
+      "DBMS",
+      "Operating System", 
+      "Computer Network"
     ],
   },
   {
