@@ -17,7 +17,7 @@ const word = [
 export default function Home() {
   return (
     <>
-      <section className=" mb-20 mt-24 xl:mt-0 ">
+      <section className=" mb-20 mt-24 xl:mt-0 overflow-x-auto ">
         <div className="main-page grid md:grid-cols-2   ">
           <div className="text flex flex-col items-center justify-center">
             <div className=" myFont text-[50px] lg:text-[90px] font-extrabold  text-center flex flex-col">
